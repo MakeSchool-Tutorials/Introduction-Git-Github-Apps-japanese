@@ -32,7 +32,7 @@ We need to set up SourceTree before we can create a repository.
 > [action]
 > Open up SourceTree and go through the set up prompts.
 >
-> Add your GitHub account and skip the reset of the set up.
+> Add your GitHub account and skip the rest of the set up.
 >
 > Go to `SourceTree > Preferences` and fill out your full name and email address (be sure to use the one you signed up for GitHub with).
 

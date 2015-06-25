@@ -22,9 +22,9 @@ Dropbox allows you to keep a remote copy of your projects -- why don't we just u
 
 There is a limited revision history but files are synced as soon as they are saved. This means its extremely hard to revert a whole project to an older version. We see changes only at the file level. Git uses *commits* to save a snapshot of the whole project all at once. We can even include messages with our commits to remind us what we changed!
 
-Dropbox is not an ideal system for personal projects. The situation starts to look even worse when it comes to collaboration! Two people working out of the same Dropbox folder will often break each other's builds as they work since files sync as soon as they are saved.
+Dropbox is not an ideal system for personal projects. The situation starts to look even worse when it comes to collaboration! Two people working out of the same Dropbox folder will often break each other's code as they work since files sync as soon as they are saved.
 
-Since Git uses commits, conflicts are resolved through *merging* those commits. This allows multiple people to work without worrying about changing the same files. They know they can just resolve any differences by merging once there are at least two stable commits.
+Since Git uses commits, "conflicts" (instances where you and your collaborator both changed the same code) are resolved through *merging* those commits. This allows multiple people to work without worrying about changing the same files. They know they can just resolve any differences by merging once there are at least two stable commits.
 
 #What you will learn
 

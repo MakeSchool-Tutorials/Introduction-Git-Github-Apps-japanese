@@ -39,3 +39,7 @@ You will:
 5. *Push* that *commit* to a *remote repository* hosted by GitHub
 
 Let's get you set up with Git and get your first project up on GitHub!
+
+#Feedback
+
+If you have feedback on this tutorial or find any mistakes, please open issues on the [GitHub Repository](https://github.com/MakeSchool-Tutorials/Introduction-Git-Github-Apps).

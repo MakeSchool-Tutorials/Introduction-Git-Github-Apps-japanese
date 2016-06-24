@@ -126,3 +126,8 @@ Right click on the project in the sidebar and select `View on GitHub`. Your brow
 
 > [info]
 > You will go through this *commit* and *push* (sync) cycle every time you finish making changes to your project. Remember to use descriptive commit subjects and keep it professional! Your commit subjects can be read on your _GitHub_.
+
+# The rest of your projects
+
+> [action]
+> Go through the **Initial Commit** step for any other projects you have finished at Make School. Let's build that portfolio up!

@@ -130,4 +130,4 @@ Right click on the project in the sidebar and select `View on GitHub`. Your brow
 # The rest of your projects
 
 > [action]
-> Go through the **Initial Commit** step for any other projects you have finished at Make School. Let's build that portfolio up!
+> Go through the steps to create a repository, commit all the files, and create a remote repository on _GitHub_ for any other projects you have finished at Make School. Let's build that portfolio up!

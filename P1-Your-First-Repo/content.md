@@ -103,6 +103,12 @@ If you want, you can even view the project on _GitHub_. Go to the `Repository` m
 
 ![Initial commit on GitHub](./initial_commit.png)
 
+> [info]
+>
+## Getting private repositories for free
+>
+GitHub offers a [Student Pack](https://education.github.com/pack/) that contains a bunch of freebees (free private repositories, free domain for a year, free hosting, and more). If you are currently a student in high school or college, you should qualify. Go [here](https://education.github.com/pack/) and use your school email to request it. Once approved, you will be able to create private repositories for free!
+
 # Commit and push again!
 
 Now, what happens if you make changes to your project after your first commit? We just *commit* and *push* (sync) again!

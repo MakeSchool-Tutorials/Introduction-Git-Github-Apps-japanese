@@ -16,7 +16,7 @@ We use Git because we want to:
 
 You can think of Git as "Dropbox for developers".
 
-#Why not use Dropbox?
+# Why not use Dropbox?
 
 Dropbox allows you to keep a remote copy of your projects -- why don't we just use that? When you look a bit closer, you'll realize that Dropbox only accomplishes one of our goals -- it keeps a backup copy of our projects incase of unfortunate mishaps.
 
@@ -26,7 +26,7 @@ Dropbox is not an ideal system for personal projects. The situation starts to lo
 
 Since Git uses commits, "conflicts" (instances where you and your collaborator both changed the same code) are resolved through *merging* those commits. This allows multiple people to work without worrying about changing the same files. They know they can just resolve any differences by merging once there are at least two stable commits.
 
-#What you will learn
+# What you will learn
 
 In this tutorial you will get started with the very basics of Git.
 

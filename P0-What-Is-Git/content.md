@@ -18,7 +18,7 @@ You can think of Git as "Dropbox for developers".
 
 # Why not use Dropbox?
 
-Dropbox allows you to keep a remote copy of your projects -- why don't we just use that? When you look a bit closer, you'll realize that Dropbox only accomplishes one of our goals -- it keeps a backup copy of our projects incase of unfortunate mishaps.
+Dropbox allows you to keep a remote copy of your projects -- why don't we just use that? When you look a bit closer, you'll realize that Dropbox only accomplishes one of our goals -- it keeps a backup copy of our projects in case of unfortunate mishaps.
 
 There is a limited revision history but files are synced as soon as they are saved. This means its extremely hard to revert a whole project to an older version. We see changes only at the file level. Git uses *commits* to save a snapshot of the whole project all at once. We can even include messages with our commits to remind us what we changed!
 

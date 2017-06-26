@@ -75,7 +75,7 @@ Alright! Now that we have organized our projects, let's create a new repository!
 1. Make sure all the files are checked. If they are checked, then they are *staged* and ready to be *committed*!
 1. Enter a short message in `Summary`. This will usually describe what you changed between the last commit and this new one. It is best for the commit message to fill in the blank for the sentence "This commit will \_\_\_\_\_\_\_\_". In our case, we are committing a completed project so something like "Add completed <project name>" would work.
 1. Click `Commit to master`.
-1. Most of the files in "changed files" should disappeared (you don't need to worry about `.DS_Store` files).
+1. Most of the files in "changed files" should disappear (you don't need to worry about `.DS_Store` files).
 >
 ![ms-video](https://s3.amazonaws.com/mgwu-misc/GitHubDesktop/create_and_commit.mp4)
 

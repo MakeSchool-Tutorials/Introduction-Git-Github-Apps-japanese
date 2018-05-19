@@ -1,41 +1,41 @@
 ---
-title: "What is Git?"
+title: "Gitとは何ですか？"
 slug: what-git
 ---
 
-Let's get started talking about one of the most important tools a developer can learn: *Git*.
+開発者が学べるツールの中で最も重要なものの一つについて話していきましょう。*Git* です。
 
-Git is a distributed version control system. When we say Git is a *version control system*, we mean that it is a tool you can use to create snapshots of your projects throughout the development process. Git is *distributed* because you can keep copies of these snapshots in multiple places. Usually we'll have one copy on our computer and another hosted somewhere like [GitHub](https://github.com/).
+Gitは分散型のバージョン管理システムです。Gitが *バージョン管理システム* だと言うとき、これは開発過程を通じてプロジェクトのスナップショットを作成できるツールだということを意味しています。Gitが*分散型*なのは、複数の場所にこれらのスナップショットのコピーを保管できるからです。通常、コンピューター上に一つコピーがあり、例えば[GitHub]（https://github.com/）のような場所に別のコピーがホストされています。
 
-We use Git because we want to:
+私たちは次の目的でGitを使います：
 
-1. Have a backup copy of our projects. Hard drives die and laptops get stolen. We don't want to lose all of our work due to an unfortunate mishap.
-2. Be able to see the progress we have made on projects and keep track of changes over time.
-3. Share our code publicly. Keeping a portfolio of your projects can be extremely helpful when looking for a job. A lot of companies expect you to have a GitHub so they can check out your past work.
-4. Be able to work with other developers all around the world. Almost all projects with more than one person rely on Git (or another *version control system*) to help organize collaboration. Employers will expect you to be familiar with Git.
+1. プロジェクトのバックアップコピーを用意するため。ハードドライブは壊れることがありますし、ノートブックパソコンは盗まれることがあります。不慮の事故で、作業の成果すべてを失いたくはありません。
+2. プロジェクトの進捗状況を確認し、長期にわたって変更を追跡できるようにするため。
+3. コードを公開して共有するため。あなたのプロジェクトのポートフォリオを用意しておくと、仕事を探しているときに非常に役にたつ場合があります。多くの会社は、あなたがGitHubを使っていることを期待しています。あなたの過去の仕事を確認したいからです。
+4. 世界中の他の開発者たちと作業を進められるようにするため。複数人が携わるプロジェクトのほぼすべてがGit（または別の*バージョン管理システム*）に頼って、共同制作の組織化に役立てています。雇用主はあなたがGitについて熟知していることを期待するでしょう。
 
-You can think of Git as "Dropbox for developers".
+Gitは「開発者のためのDropbox」のようなものだと考えられます。
 
-# Why not use Dropbox?
+# 何故ドロップボックスを使用しないのですか?
 
-Dropbox allows you to keep a remote copy of your projects -- why don't we just use that? When you look a bit closer, you'll realize that Dropbox only accomplishes one of our goals -- it keeps a backup copy of our projects in case of unfortunate mishaps.
+Dropboxはあなたのプロジェクトのリモートコピーを保管できるようにしてくれます -- それではなぜこれを使わないのでしょうか？ もう少し深く掘り下げてみると、Dropboxは私たちのゴールのうち1つしか達成しないことに気づくはずです -- 何か不慮の事故が起きたときのために、プロジェクトのバックアップコピーを保管しています。
 
-There is a limited revision history but files are synced as soon as they are saved. This means it's extremely hard to revert a whole project to an older version. We see changes only at the file level. Git uses *commits* to save a snapshot of the whole project all at once. We can even include messages with our commits to remind us what we changed!
+ある程度の変更の履歴は備わっているものの、ファイルは保存されるとすぐに同期されてしまいます。これはつまり、プロジェクト全体を前のバージョンに戻すのは極めて難しいという意味です。ファイルレベルでのみ変更を参照できます。Gitは*コミット*を使うことで、プロジェクト全体のスナップショットを一度にすべて保存します。コミットには変更した箇所を思い出せるようにメッセージを付けることすらできます！
 
-Dropbox is not an ideal system for personal projects. The situation starts to look even worse when it comes to collaboration! Two people working out of the same Dropbox folder will often break each other's code as they work since files sync as soon as they are saved.
+Dropboxは個人的なプロジェクトにとって理想的なシステムではありません。共同制作となるとさらに状況はひどくなります。2人が同じDropboxフォルダで開発をしている場合、作業を進めるにあたって、お互いのコードを壊してしまうことがよくあります。これは、ファイルは保存されるとすぐに同期されるからです。
 
-Since Git uses commits, "conflicts" (instances where you and your collaborator both changed the same code) are resolved through *merging* those commits. This allows multiple people to work without worrying about changing the same files. They know they can just resolve any differences by merging once there are at least two stable commits.
+Gitはコミットを使うため、「競合」（あなたと共同開発者の両方が同じコードに変更を加えた場合）は、これらのコミットを*結合*することで解決されます。これにより、同一のファイルを変更する心配をせずに、複数の人たちと仕事ができるようになります。少なくとも2つ安定したコミットがあれば、相違点は統合することで何でも解決できるとわかっています。
 
-# What you will learn
+# 学習する内容
 
-In this tutorial you will get started with the very basics of Git.
+このチュートリアルでは、Gitの非常に基本的なことから学んでいきます。
 
-You will:
+以下を行います：
 
-1. Create a GitHub account to host your projects
-2. Configure [Github Desktop](https://desktop.github.com/), a graphical interface for using Git
-3. Create a *repository* for your first project
-4. Create a *commit* to save your first project
-5. *Push* that *commit* to a *remote repository* hosted by GitHub
+1. プロジェクトをホストするためにGitHubアカウントを作成する
+2. Gitを利用するためのグラフィカルなインターフェイス [Github Desktop] を構成しましょう（https://desktop.github.com/）。
+3. 最初のプロジェクトのために*レポジトリ*を作成する
+4. 最初のプロジェクトを保存するために*コミット*を作成する
+5. その*コミット*をGitHubによってホスティングされる*リモートレポジトリ*に*プッシュ*する
 
-Let's get you set up with Git and get your first project up on GitHub!
+Gitのセットアップを行い、GitHubに初めてのプロジェクトを上げてみましょう！

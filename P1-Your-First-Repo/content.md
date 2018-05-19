@@ -1,138 +1,138 @@
 ---
-title: "Your first repository!"
+title: "あなたの最初のリポジトリ！"
 slug: your-first-repo
 ---
 
-When using Git, each project gets its own *repository*. The repository (or *repo*) holds the project and its commits (snapshots of the files). Since Git is *distributed*, you usually have a *local repository* and a *remote repository*. The local repository exists on your computer. The remote repository is usually hosted by a service such as [GitHub](https://www.github.com/). This means you'll still have a copy of your project if your computer goes missing or stops working.
+Gitを使用する時、各プロジェクトはそれ自体の*レポジトリ*を取得します。レポジトリ（または *レポ*）はプロジェクトとそのコミット（ファイルのスナップショット）を保有します。Gitは*分散型*なので、たいてい*ローカルレポジトリ*と*リモートレポジトリ*があります。ローカルのレポジトリは、あなたのコンピューター上に存在します。リモートレポジトリは通常 [GitHub]（https://www.github.com/）のようなサービスにホストされています。これはつまり、コンピューターがなくなったり、動かなくなったりしても、プロジェクトのコピーはまだ残っているという意味です。
 
-## Create a GitHub account
+## GitHub アカウントの作成
 
-Before we go any further, you will need to create a GitHub account. Your GitHub account will function as a professional portfolio of your work so be sure to choose a professional username that you won't be embarrassed to put on your résumé!
-
-> [action]
-> Go to [GitHub](https://github.com/join) and create an account with a **professional username**. Choose *Free* on step two.
->
-> You can skip this step if you already have a GitHub account!
-
-# Download GitHub Desktop
-
-There are a few ways to use Git but we would like everyone to get started with _GitHub Desktop_. It's a great, graphical interface and allows you to use most of Git's features.
+これより先へ進む前に、GitHubアカウントを作成する必要があります。GitHubアカウントはプロとしてのあなたの仕事のポートフォリオの役割を果たします。そのため、履歴書に書くときに恥ずかしくないプロフェッショナルらしいユーザー名を選ぶようにしましょう！
 
 > [action]
+>  [GitHub](https://github.com/join) へアクセスして、**プロフェッショナルらしいユーザー名** のアカウントを作成してください。ステップ2で *Free* を選択してください。
 >
-1. Download GitHub Desktop from [here](https://desktop.github.com/).
-1. "Unzip" the downloaded `.zip` file by double-clicking on it.
-1. Open up your applications folder and drag _GitHub Desktop_ into it
-1. Drag _GitHub Desktop_ from the applications folder onto your dock so you can access it easily.
+> すでにGitHubアカウントを持っている場合、このステップは飛ばして結構です！
 
-# Getting started
+# GitHub デスクトップ版をダウンロードする
 
-We need to set up _GitHub Desktop_ before we can create a repository.
+Gitを使う方法はいくつかありますが、皆さんにはまず _GitHub Desktop_ を使っていただきたいと思っています。そのインターフェイスは、すばらしいグラフィカルなもので、Gitの機能の多くを使えるようにしてくれます。
 
 > [action]
 >
-1. Open up _GitHub Desktop_ and start going through the setup prompts.
-1. Sign into your GitHub account.
-1. Fill out your full name and email address (be sure to use the one you signed up for GitHub with).
-1. Skip adding any existing repositories.
+1. GitHub デスクトップ版をダウンロードしてください [こちら]（https://desktop.github.com/）。
+1. ダウンロードした`.zip`ファイルをダブルクリックして「解凍」してください。
+1. アプリケーションフォルダを開いて、そこに _GitHub Desktop_ をドラッグして入れてください。
+1. アプリケーションフォルダから _GitHub Desktop_ をドックへドラッグして、簡単にアクセスできるようにしてください。
 
-# Committing and pushing
+# スタートする
 
-Earlier, we talked about *commits* or snapshots. We already finished a project so we want to create a single commit of the final results. When we do that we'll also *push* that commit to GitHub so it's backed up and added to our quickly growing portfolio. We'll do this for each project we've already finished and then start doing it as we build new projects!
-
-There are three steps to getting your files onto GitHub: *staging*, *committing*, and *pushing*. We will *stage* all the project files (by making sure they are checked to be included in the commit). This is like arranging the subjects of your snapshot (hence "staging" a photograph). A *commit* only includes files that are staged, so if we do not stage any files, we will not commit anything. Once all the files are in *staging*, we will *commit* (take the snapshot) and *push* (share the snapshot with GitHub). This will create a *commit* in our local repository and *push* it to our remote repository on GitHub.
-
-# Creating your first repository and committing the files
-
-Before we create our first repository, let's make sure we are organized.
+レポジトリを作成する前に、 _GitHub Desktop_ をセットアップする必要があります。
 
 > [action]
-> ## Getting organized
 >
-1. Save everything and close Xcode
-1. Create a new folder somewhere to store all your projects if you don't already have one. Your Desktop or Documents would be a good place! Name the new folder `Make School Projects` and drag all your previous projects into it.
+1. _GitHub Desktop_ を開いて、セットアップのプロンプトを進めていきましょう。
+1. GitHub アカウントにサインインしてください。
+1. フルネームとメールアドレスを記入してください（GitHubのサインアップで記入したものを使用してください）。
+1. 既存のレポジトリの追加はスキップしてください。
+
+# コミットとプッシュ
+
+先ほど、*コミット* やスナップショットについて話しました。既にプロジェクトは作成しましたから、最終結果の単一のコミットを作成したいのです。これを実行するときには、そのコミットをGitHubに*プッシュ*することにもなりますから、バックアップが保存され、どんどん成長しているポートフォリオに追加されます。これは、すでに完成させている各プロジェクトに対して実行します。また、新しいプロジェクトを開発するときに実行を開始します！
+
+ファイルをGitHubに上げるには3つの手順があります。*ステージング*、*コミッティング*、そして *プッシング* です。すべてのプロジェクトファイルを*ステージ*します （ファイルがコミットに含まれていることを確認して実施します）。これは、スナップショットの中味を整理するようなものです（したがって、写真を*ステージ*するわけです）。*コミット* 含まれるのは、ステージされたファイルだけです。そのため、まったくファイルをステージしていない場合は、何もコミットしません。すべてのファイルが*ステージング*状態になったら、 *コミット* （スナップショットの撮影）を行い、 *プッシュ*（GitHubでスナップショットを共有）します。これはローカルレポジトリに*コミット*を作成し、GitHub上のリモートレポジトリに*プッシュ* します。
+
+# 最初のリポジトリーを作成し、ファイルをコミットする
+
+最初のレポジトリを作成する前に、きちんと整理ができていることを確認しましょう。
+
+> [action]
+> ## 準備を整える
+>
+1. すべてを保存し、Xcodeを閉じます
+1. まだであれば、あなたのプロジェクトすべてを保存する新しいフォルダをどこかに作成します。デスクトップか書類がいいでしょう！ 新しいフォルダを`Make School Projects`と名付け、以前のプロジェクトをすべてドラッグしてください。
 
 <!--  -->
 
 > [info]
-> You can create a new folder by right-clicking and selecting `New Folder`. You can rename a folder by right-clicking on it and selecting `Rename`.
+> 新しいフォルダは右クリックして`新規フォルダ`を選択することで作成できます。フォルダは右クリックして`名前を変更`を選択すれば、名前を変更できます。
 
-Alright! Now that we have organized our projects, let's create a new repository!
+万事OKです！ プロジェクトの整理ができたので、新しいレポジトリを作りましょう！
 
 > [info]
-> The videos reference `Tip Pro`, the first project for the apps track. If you are in the games track, use `Flappy Bird` instead. If you are in the VR track, use `Game Of Life` instead.
+> ビデオが参照しているのは`Tip Pro`です。これは、アプリトラックの最初のプロジェクトです。ゲームトラックを選択している場合は、代わりに`Flappy Bird`を使用してください。VRトラックを選択している場合は、代わりに`Game of Life`を使用してください。
 
 <!--  -->
 
 > [action]
-> ## Initial commit
+> ## 初回のコミット
 >
-1. Open _GitHub Desktop_ and your projects folder.
-1. Click `Create New Repository`, fill out the name and choose your projects folder as `Local Path`.
-1. Check `Initialize this repository with a README`. And select `Swift` under `Git Ignore`. Keep `License` as `None` and click `Create Repository`.
-1. Open your project folder and you'll find a new folder inside of there. Its name will match your repository name. Open it and drag your first project into it.
-1. Go back to _GitHub Desktop_ and you should see a bunch of "changed files" in the left hand sidebar.
-1. Make sure all the files are checked. If they are checked, then they are *staged* and ready to be *committed*!
-1. Enter a short message in `Summary`. This will usually describe what you changed between the last commit and this new one. It is best for the commit message to fill in the blank for the sentence "This commit will \_\_\_\_\_\_\_\_". In our case, we are committing a completed project so something like "Add completed <project name>" would work.
-1. Click `Commit to master`.
-1. Most of the files in "changed files" should disappear (you don't need to worry about `.DS_Store` files).
+1. _GitHub Desktop_ とプロジェクトフォルダを開いてください。
+1. `Create New Repository`をクリックし、`Local Path`としてプロジェクトフォルダに名前を付けて選択してください。
+1. `Initialize this repository with a README`をチェックしてください。次に`Git Ignore`の下で`Swift`を選択してください。`License`は`None`のままにし、`Create Repository`をクリックしてください。
+1. プロジェクトフォルダを開くと、その中に新しいフォルダがあります。その名前はあなたのレポジトリ名と一致しています。これを開いて、最初のプロジェクトを中へドラッグしてください。
+1. _GitHub Desktop_ に戻ると、左側のサイドバーに多くの「変更済みファイル」が表示されているはずです。
+1. 必ずすべてのファイルがチェックされていることを確認してください。チェックが済むと、*ステージ* が行われ、*コミット* する準備ができた状態になります！
+1. `Summary`に短いメッセージを入力してください。これはたいてい、最後のコミットと今回の新しいものとの間に何を変更したかを説明します。コミットメッセージにとって最適なのは、「このコミットは \_\_\_\_\_\_\_\_です」という文章の空白部分を埋めることです。この場合、完成したプロジェクトをコミットしようとしているので、「完成した<プロジェクト名>を追加」というようなメッセージが適切でしょう。
+1. `Commit to master`をクリックしてください。
+1. 「変更されたファイル」の大半は消えるはずです（`.DS_Store`ファイルについて心配する必要はありません）。
 >
 ![ms-video](https://s3.amazonaws.com/mgwu-misc/GitHubDesktop/create_and_commit.mp4)
 
-Congrats! You just created your first local repository! There is just one problem... it has not been *pushed* to *GitHub* yet! This repository only exists on your computer. The outline of a circle means that commit has not yet been *pushed*. Once it's *pushed*, it will be filled in.
+おめでとうございます！ たった今、ローカルレポジトリを初作成しました！ ただ、問題が一つあります... これはまだ*GitHub*に*プッシュ*されていません！ このレポジトリは、あなたのコンピューター上にのみ存在しています。丸の輪郭は、コミットがまだ*プッシュ*されていないことを意味します。*プッシュ* が済むと、埋め尽くされます。
 
 > [info]
-> If you only wanted to commit a few changed files, you could pick and choose by unchecking the files to *unstage* them. In this case we wanted all of them so we left them all checked (or *staged*).
+> 変更されたファイル数点のみをコミットしたい場合は、ファイルのチェックを外して*アンステージ*することができます。この場合は全部欲しかったので、すべてチェックした（または*ステージ*）状態にしました。
 
-# Creating a remote repository
+# リモートリポジトリーを作成
 
-So, how do we create a remote repository on _GitHub_? Lucky for us, this is the _GitHub Desktop_ app and we don't even need to open a browser!
+さて、 _GitHub_ 上でリモートレポジトリを作成するにはどうしたらいいのでしょうか？ 幸いなことに、これは _GitHub Desktop_ アプリですから、ブラウザを開く必要はありません！
 
 > [action]
 >
-1. Click the `Publish repository` button at the top right.
-1. In the popup, give your repository a name. This should be the name of your project.
-1. You can enter a short description as well if you would like. This is a good place to describe your project, what language you used (Swift), and what platform it was created for (iOS).
-1. Uncheck `Keep this code private` for now. Your basic GitHub account will not allow for private repositories (see below for a potential way to get free private repositories).
-1. Click `Publish Repository`
-1. Watch the button show the progress. Once it changes to `Fetch origin`, that means you have successfully *pushed* your repository to GitHub!
+1. 右上の`Publish repository`ボタンをクリックしてください。
+1. ポップアップでレポジトリに名前を付けてください。これはプロジェクトの名前にしましょう。
+1. お望みであれば短い説明文を入力することもできます。これは、使用した言語（Swift）や、作成の対象となるプラットフォーム（iOS）など、プロジェクトについて説明する良い機会です。
+1. 今のところは`Keep this code private`のチェックを外しておいてください。基本のGitHubアカウントはプライベートなレポジトリを利用できません（無料でプライベートなレポジトリを取得できる可能性のある方法については、以下を参照してください）。
+1.`Publish Repository`をクリックしてください。
+1. ボタンは進捗状況を表示します。これが`Fetch origin`に変わると、レポジトリをGitHubに*プッシュ* するのに成功したということを意味しています！
 >
 ![ms-video](https://s3.amazonaws.com/mgwu-misc/GitHubDesktop/create_repo.mp4)
 
-If you want, you can even view the project on _GitHub_. Go to the `Repository` menu on the top bar and select `View on GitHub`. Your browser will open up directly to the repository. Now it's on _GitHub_ and you have started a development portfolio!
+お望みであれば、プロジェクトを _GitHub_ 上で参照することすらできます。トップバーの`Repository`メニューに行き、`View on GitHub`を選択してください。ご利用のブラウザが直接レポジトリを開きます。これは今 _GitHub_  上にあり、開発ポートフォリオが始まりました！
 
-![Initial commit on GitHub](./initial_commit.png)
+![GitHubでの最初のコミット](./initial_commit.png)
 
 > [info]
 >
-## Getting private repositories for free
+## プライベートなリポジトリーを無料で入手
 >
-GitHub offers a [Student Pack](https://education.github.com/pack/) that contains a bunch of freebees (free private repositories, free domain for a year, free hosting, and more). If you are currently a student in high school or college, you should qualify. Go [here](https://education.github.com/pack/) and use your school email to request it. Once approved, you will be able to create private repositories for free!
+GitHubは、多くの無料サービス（無料のプライベートレポジトリ、1年間無料のドメイン名、無料のホスティングなど）を含む [Student Pack（学生パック）]（https://education.github.com/pack/）を提供しています。もしあなたが現在高校生か大学生なら資格があります。 [こちらから]（https://education.github.com/pack/）学校のメールアドレスを使ってリクエストしてください。承認されると、無料で非公開レポジトリを作成できるようになります！
 
-# Commit and push again!
+# もう一度コミットしてプッシュしましょう！
 
-Now, what happens if you make changes to your project after your first commit? We just *commit* and *push* (sync) again!
+さて、最初のコミットの後でプロジェクトに変更を加えた場合、何が起こるでしょう？ もう一度*コミット*して、*プッシュ*（同期）するだけです！
 
 > [action]
-> Let's say you wanted to update the README file for your project. README's are displayed at the bottom of your _GitHub_ page and allow you to go into more detail about your project.
+> 例えば、プロジェクトのREADMEファイルを更新したいとします。READMEは _GitHub_ ページの最下部に表示されており、プロジェクトの詳細を説明できるようにしてくれます。
 >
-1. Open your project in Finder (`Repository` menu on top bar > `Show in Finder`) and open `README.md`.
-1. Add a more detailed description, right now it only contains the title! Save it and close it.
-1. You should see the `README` file *staged* and ready to be committed.
-1. Put "Add a more detailed README" in the `Subject`.
-1. Click `Commit to master` and your `Fetch origin` button should change to `Push origin`. This means you have local commits that have not been *pushed* to GitHub! This is dangerous because the updates only exist on your computer and are not backed up in the cloud!
-1. Press the `Push origin` button and watch it push!
+1. Finderでプロジェクトを開き (トップバーの`Repository`メニュー > `Show in Finder`) `README.md`を開いてください。
+1. 今はタイトルしか含まれていないので、もっと詳しい説明を追加しましょう！ 保存して、閉じてください。
+1. `README`ファイルが*ステージ*され、コミットする準備が整っている状態になっているはずです。
+1. `Subject`に「もっと詳しいREADMEを追加する」と入力してください。
+1. `Commit to master`をクリックすると、`Fetch origin`ボタンは`Push origin`に変わるはずです。これはつまり、まだGitHubに*プッシュ*されていないローカルなコミットがあるという意味です！ これは危険です。更新内容はコンピューター上のみに存在しており、クラウドではバックアップされていないからです！
+1. `Push origin`ボタンを押して、プッシュされる様子を見守りましょう！
 >
 ![ms-video](https://s3.amazonaws.com/mgwu-misc/GitHubDesktop/commit.mp4)
 
-Right click on the project in the sidebar and select `View on GitHub`. Your browser will open up directly to the repository. What a pretty `README` :)
+サイドバーでプロジェクトを右クリックし、`View on GitHub`を選択してください。ご利用のブラウザが直接レポジトリを開きます。すばらしい`README`ですね  :)
 
-![Readme commit](./readme_commit.png)
+![Readmeコミット](./readme_commit.png)
 
 > [info]
-> You will go through this *commit* and *push* (sync) cycle every time you finish making changes to your project. Remember to use descriptive commit subjects and keep it professional! Your commit subjects can be read on your _GitHub_.
+> あなたのプロジェクトに対する変更の追加が完了するたびに、この*コミット*と*プッシュ*（同期）のサイクルを繰り返すことになります。わかりやすいコミットの題を使うことと、プロらしくすることを忘れないようにしましょう！ あなたのコミットの主題は _GitHub_ 上で読むことができます。
 
-# The rest of your projects
+# 残りのプロジェクト
 
 > [action]
-> Go through the steps to create a repository, commit all the files, and create a remote repository on _GitHub_ for any other projects you have finished at Make School. Let's build that portfolio up!
+> 該当する手順に従って、Make Schoolで完成させた他のプロジェクトに関しても、_GitHub_ 上でレポジトリを作成し、すべてのファイルをコミットし、リモートレポジトリを作成しましょう。ポートフォリオを作り上げていきましょう！
